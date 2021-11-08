@@ -1,0 +1,174 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    width: 10%;
+    height: auto;
+    padding: 10;
+    margin-left: 5px;
+}
+/*slider*/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  /*slider*/
+  /*cards*/
+  .contenido-final{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    }
+    .card img{
+      width: 100%;
+      height: auto;
+    }
+    
+    .card{    
+    margin:15% 0% 5% 0%;
+    
+    Flex-direction: left;
+    flex-basis: 0px;
+    flex-grow: 1;}
+
+    .lista-final{
+      background: hsl(187, 75%, 73%);
+      padding: 30px; }
+      
+      .uno{
+      color: #ffffff;
+      margin: 0px 0px 0px 8px;
+      margin: 15px;
+      }
+      
+      .lista-final p{
+      color: #ffffff;
+      margin: 15px;
+      
+      }
+      
+     .corales{
+      display:flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: auto;}
+
+      .coral img{
+        width: 70%;
+        height: auto;
+      }
+      
+      .coral{   
+      margin:5% 5% 5% 5%;
+      Flex-direction: left;
+      flex-basis: 0px;
+      flex-grow: 1;}
+   
+      /*Galeria*/
+      .Galeria{
+        display:flex;
+        flex-wrap: wrap;
+        width: 90vw;
+        margin: 1em auto;
+        justify-content:space-between;
+        }
+      
+        .foto{    
+        width:32%;
+        margin-bottom:2% ;/*(100-32*3)/2*/
+        background: #68b2dd;
+        
+        }
+        
+      
+        .foto h3{
+        font-size: 40px;
+        text-align: center;
+        margin: 10px;
+      
+        }
+
+        /*videos*/
+
+      .videos{
+        display:flex;
+        flex-wrap: wrap;
+        margin: 8em auto;
+        justify-content: space-around;
+        width: 35vw;
+
+
+        }
+      .subvideo{
+        margin: 2em;
+
+      }
+      /* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+
+@media (min-width: 768px) and (max-width: 1024px){
+  
+ .card{
+   width: 18%;
+   width: auto;
+ } 
+}
+/* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+  
+@media (min-width: 481px) and (max-width: 767px){
+  .card{
+    width: 18%;
+    width: auto;
+  } 
+  .video{
+    width: 18%;
+    width: auto
+   } 
+   .foto h3{
+font-size: 18px;
+   }
+}
+
+/* ##Dispositivo = Smartphones de 320px a 479px */
+    
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .card{
+
+    width: 18%;
+    width: auto;
+  } 
+  .foto h3{
+    font-size: 15px;
+       }
+}
+
+     

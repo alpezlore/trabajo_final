@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>mundo marino</title>
+</head>
+<body>
+    <!--navegador-->
+
+    <header class="cd-auto-hide-header">
+        <div class="logo"><a href="#0"><img src="img/logo.png" alt="Logo"></a></div>
+    
+        <nav class="cd-primary-nav">
+            <a href="#cd-navigation" class="nav-trigger">
+                <span>
+                    <em aria-hidden="true"></em>
+                    Menu
+                </span>
+            </a> <!-- .nav-trigger -->
+    
+            <ul id="cd-navigation">
+                <li><a href="index.html">Inicio</a></li>
+                 <li><a href="videos.html">Videos</a></li>
+                 <li><a href="videos.html">Galeria</a></li>
+          
+            </ul>
+        </nav> <!-- .cd-primary-nav -->
+    </header> <!-- .cd-auto-hide-header -->
+    <img src="img/fondo.jpg" alt="fonfo mar">
+
+
+
+    <!--inicio-js-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!--final-js-->
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/3-2.jpg" alt="peces beta"></div>
+          <div class="swiper-slide"><img src="img/3-3.jpg" alt="peces beta"></div>
+          <div class="swiper-slide"><img src="img/3-4.jpg" alt="peces beta"></div>
+          <div class="swiper-slide"><img src="img/3-5.jpg" alt="peces beta"></div>
+          <div class="swiper-slide"><img src="img/3-6.jpg" alt="peces beta"></div>
+          <div class="swiper-slide"><img src="img/3-7.jpg" alt="peces beta"></div>
+          <div class="swiper-slide"><img src="img/3-8.jpg" alt="peces beta"></div>
+          <div class="swiper-slide"><img src="img/3-9.jpg" alt="peces beta"></div>
+          <div class="swiper-slide"><img src="img/3.jpg" alt="peces beta"></div>
+
+         
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 3,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+      <!--section-->
+<section class="contenido-final">
+    <article class="card">
+    <img src="img/1.jpg" alt="peces">
+    
+    </article>
+    
+    <article class="card">
+    <img src="img/1-6.jpg" alt="peces"></article>
+   
+    <!--informacion-->
+    <div class="lista-final">
+        <ul class="foteer">
+          <li class="uno"> Acuario Oceanico</li>
+          <li class="uno"> Lorena Alzate</li>
+          <li class="uno"> Dirección</li>
+          <li class="uno"> cl 30 No 50 D 27</li>
+          <li class="uno"> Correo Electronico</li>
+          <li class="uno"> Acuariooceanico@gmail.com</li>
+          <br>
+          
+          <br>
+          <p>Acuario Oceánico,nació de la pasión por los peces, los acuarios y la piscicultura.
+            Proveemos de artículos, peces, accesorios, equipos y todo lo relacionado con los peces a las personas de cualquier ciudad de Colombia.
+            Nuestros productos son de excelente calidad y garantizados.
+            Trabajamos con empresas serias y responsables como aliados principales para garantizarte tu satisfacción.
+            Nuestra política de calidad, agilidad y servicio nos posicionan como una empresa al servicio de las personas amantes de los peces.
+            Esperamos que puedas tener nuestros productos y que disfrutes de esta pasión tanto como nosotros.<br>
+            .</p>
+          </ul>
+    </div>
+</body>
+</html>
